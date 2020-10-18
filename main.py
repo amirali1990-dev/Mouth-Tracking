@@ -7,7 +7,6 @@ import face_recognition
 from imutils import face_utils
 from collections import OrderedDict
 
-# face_detector = dlib.get_frontal_face_detector()   
 predictor = dlib.shape_predictor("detector\\shape_predictor_68_face_landmarks.dat")
 
 prototxtPath = "face_detector\\deploy.prototxt"
